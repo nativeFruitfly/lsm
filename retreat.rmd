@@ -153,12 +153,12 @@ class: center middle
 
 --
 .pull-left[
-<img src="./images/unreg.gif" width="400" height="400">
+<img src="./images/unreg.gif" width="400" height="400" />
 ]
 --
 
 .pull-right[
-<img src="./images/reggif.gif" width="400" height="400">
+<img src="./images/reggif.gif" width="400" height="400" />
 ]
 
 
@@ -308,7 +308,7 @@ class: center middle
 ### How stable are these morphologically distinct lines:
 2014 vs 2020:
 
-<img src="/images/stabl.png" width=950/>
+<img src="./images/stabl.png" width="950" />
 
 ???
 - accidental
@@ -316,6 +316,7 @@ class: center middle
 
 ---
 ### Variation within each individual
+
 <img src="./images/ind.png" width=600/>
 
 
@@ -329,7 +330,7 @@ class: center middle
 
 ---
 
-#### How does these lines compare with species variation?
+### How does these lines compare with species variation?
 
 --
 <img src="./images/spi_avg.png">
@@ -353,6 +354,7 @@ class: center middle
 ---
 
 ### Overlap in morphospace:
+
 - ICB28, ICB32 etc are significantly more similar to *D.suzukii* etc.
 - Some lines vary more, some less.
 - Some lines deviate more from Gaussian distribution
