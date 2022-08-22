@@ -110,6 +110,8 @@ class: center middle
 
 # However!
 
+---
+
 ### Morphology varies in a continuous way:
 
 ---
@@ -146,6 +148,12 @@ class: center middle
 - How do we get a random sample of the population? 
 - One strategy is to collect inseminated females from the wild and to establish a population. Most laboratory strains were established in this way. canton s, oregon k oregon r. 
 - However, for complex phenotypes that vary in multi-dimension, precise quantification of the phenotype can be difficult.
+
+---
+
+### Variation within each isofemale line
+
+<img src="./images/isofemale.png" width=1050/>
 
 ---
 
@@ -294,11 +302,7 @@ class: center middle
 
 ---
 
-### Variation within each isofemale line
 
-<img src="./images/isofemale.png" width=1050/>
-
----
 ### Looking for patterns:
 .left-column[
 - Structure within lines?
