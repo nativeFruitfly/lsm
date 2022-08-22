@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Natural variation of wing pigmentation pattern in a population of Drosophila biarmipes</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Deepak D," />
+    <meta name="author" content="22-08-2022, LSM retreat, 2022" />
+    <meta name="author" content="AG Gompel" />
+    <meta name="author" content="Ludwig-Maximilians-Universität, München." />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: top, center, title-slide
+
+.title[
+# <p>Natural variation of wing pigmentation pattern in a population of <em>Drosophila biarmipes</em></p>
+]
+.author[
+### Deepak D,
+]
+.author[
+### 22-08-2022, LSM retreat, 2022
+]
+.author[
+### AG Gompel
+]
+.author[
+### Ludwig-Maximilians-Universität, München.
+]
+
+---
+
+
+
+
+---
+
+class: center
+
+## Similar. Yet so different.!
+
+.pull-left[
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Close_wing_position_of_Papilio_paris%2C_Linnaeus%2C_1758_%E2%80%93_Paris_Peacock_WLB.jpg" style="width: 80%" /&gt;
+
+*Papilio paris*
+
+&lt;a href="https://commons.wikimedia.org/wiki/File:Close_wing_position_of_Papilio_paris,_Linnaeus,_1758_%E2%80%93_Paris_Peacock_WLB.jpg"&gt;Sayan Sanyal&lt;/a&gt;, &lt;a href="https://creativecommons.org/licenses/by-sa/4.0"&gt;CC BY-SA 4.0&lt;/a&gt;, via Wikimedia Commons
+]
+
+.pull-right[
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Papilio_helenus_fortunius_male_20131027.jpg" style="width: 90%" /&gt;
+
+*Papilio helenus*
+
+&lt;a href="https://commons.wikimedia.org/wiki/File:Papilio_helenus_fortunius_male_20131027.jpg"&gt;Peellden&lt;/a&gt;, &lt;a href="https://creativecommons.org/licenses/by-sa/4.0"&gt;CC BY-SA 4.0&lt;/a&gt;, via Wikimedia Commons
+]
+
+---
+
+### Why do some organisms look similar and some dissimilar?
+
+.pull-left[&lt;img src="./images/gibbon.jpg"/&gt;]
+
+.pull-right[&lt;img src="./images/joco.jpg"/&gt;]
+
+.footnote[Comte de Buffon (1791) *Histoire naturelle, générale et particuliére*]
+
+???
+- buffon- importance of father of evo
+- Similarities between different organisms were well known and a source of fascination.
+- farmers had known for millennia, crops- better yield etc
+- Many have tried to explain 
+- Nobody knew why
+
+---
+
+### Why **do some organisms look similar and some dissimilar?** 
+
+--
+  
+.center[&lt;img src="./images/joco_crp.png"&gt;/
+&lt;img src="./images/deepu.jpg" height=400&gt;/]
+
+---
+
+class: left
+
+### How **do some organisms look similar and some dissimilar?**
+
+--
+However, similarity or dissimilarity was &lt;sup&gt;*kind of **&lt;/sup&gt; measurable.
+
+???
+- Notice how easily identifiable the characters are
+- Discovery travelled very fast, unlike Buffon's work
+- Translated to English
+- Hunt/ Trial to replicate th eexp began
+--
+
+
+.left-column[
+&lt;img src="./images/gmendl.png" width=500&gt; Gregor Mendel]
+
+--
+
+.right-column[&lt;img src="./images/mendel.png" width=600&gt;]
+
+.right[[*]For traits that are largely/readily distinguishable]
+.right[Images: Wikicommons]
+
+???
+- Notice how easily identifiable the characters are
+
+---
+
+### Morphology varies in a continuous way:
+
+&lt;img src="./images/grid.png" &gt;
+???
+
+- Recap
+- Morphology depends on inheritance of genes. 
+ -Therefore, understanding the theory of evolution via natural selection requires understanding the genotype–phenotype distinction. 
+- Hence it is crucial to get unbiased samples from wild. 
+- Analysing Difficulty in both aspects:
+  - How do we get a random sample of the population? 
+  - One strategy is to collect inseminated females from the wild and to establish a population. Most laboratory strains were established in this way. canton s, oregon k oregon r. 
+- However, for complex phenotypes that vary in multi-dimension, precise quantification of the phenotype can be difficult.
+- On left: we see variation between species of genus Bia of Lepidoptera
+- On the right we see variation within a species of Arabidopsis thaliana in response to different altitudes.
+
+---
+
+### Natural population of  *Drosophila biarmipes* collected by lab from India:
+
+--
+
+&lt;img src="./images/unreg_grid.png" &gt;
+
+???
+- unbiased samples
+- imp of random sampling
+- resolution of phenotype
+- Analysing Difficulty in both aspects:
+- How do we get a random sample of the population? 
+- One strategy is to collect inseminated females from the wild and to establish a population. Most laboratory strains were established in this way. canton s, oregon k oregon r. 
+- However, for complex phenotypes that vary in multi-dimension, precise quantification of the phenotype can be difficult.
+---
+
+### How do we compare these phenotypes in a _'quantitative'_ way?
+
+--
+.pull-left[
+&lt;img src="./images/unreg.gif" width="400" height="400"&gt;
+]
+--
+
+.pull-right[
+&lt;img src="./images/reggif.gif" width="400" height="300"&gt;
+]
+
+
+&lt;div class="right" "bottom"&gt;
+
+Image registration pipeline: Yann Le Poul (Unpublished)
+
+---
+
+### After registeration:
+
+&lt;img src="./images/reg_grid.png"/&gt;
+
+---
+
+### Capturing the *quantitative* variation:
+&lt;div class="columns-2"&gt;
+
+--
+.left-column[
+- Filter values outside wing blade.
+- Each pixel as a variable.
+
+- Approx. 257,000 *variables* per wing
+]
+
+--
+.right-column[&lt;img src="./images/masked.gif" width=700&gt;]
+???
+- contrast to landmark
+- all pixels
+- most landmark 20 to 40
+- here 270,000 dimensions
+- matching genotype resolution
+
+---
+
+### Capturing the *quantitative* variation:
+
+Average Phenotypes:
+.left-column[
+- Compute Average phenotypes
+]
+--
+.right-column[&lt;img src="./images/avg_grid.png" width=600 &gt;]
+
+???
+- What can we do with registered wings
+
+---
+
+### Capturing the *quantitative* variation:
+
+Principal Component Analysis (PCA)
+
+--
+&lt;img src="images/pca_exampl.jpg" height = 450&gt;
+
+&lt;div class="right"&gt;
+www.pexels.com @Matheus Bertelli
+
+---
+
+class: center middle
+&lt;img src="images/pca_pov_1.png" height = 600&gt;
+
+---
+
+class: center middle
+&lt;img src="images/pca_pov_2.png" height = 600&gt;
+
+---
+
+### PCA on ( n_wings x 257,000 pixels )
+
+--
+
+&lt;img src="images/pca_2014.png" height=500&gt;
+
+???
+- continuious variation
+- Increased resolution
+
+---
+
+### PCA: Morphospace
+
+&lt;img src="images/morphopc.png" height=500&gt;
+
+---
+
+### Summary so far:
+
+.left-column[
+
+- Our Indian Lines vary in pigmentation pattern, size, intensity, etc. 
+
+- Can we quantify it?
+
+- **What is the variation within each line?**
+]
+
+--
+.right-column[
+&lt;img src="./images/animated_100.gif" width=650 &gt;
+
+ Variation within each isofemale line
+]
+
+---
+
+### Variation within each isofemale line
+
+&lt;img src="./images/isofemale.png" width=1050/&gt;
+
+---
+### Looking for patterns:
+.left-column[
+- Structure within lines?
+
+- Euclidean distance between each pair of lines
+
+- LDA to classify cluster
+
+]
+
+--
+.right-column[
+
+&lt;img src="/images/classif.png" width=600/&gt;
+
+]
+
+---
+### Morphologically distinct lines:
+
+&lt;img src="/images/uniq.png" width=950/&gt;
+
+???
+- pause
+- dream clouds
+- Access to morphospace
+
+---
+
+### How stable are these morphologically distinct lines:
+2014 vs 2020:
+
+&lt;img src="/images/stabl.png" width=950/&gt;
+
+???
+- accidental
+- clouds 
+
+---
+### Variation within each individual
+&lt;img src="/images/ind.png" width=600/&gt;
+
+
+
+---
+
+### How does these lines compare with species variation?
+
+--
+&lt;img src="images/spi.svg"&gt;
+
+---
+
+#### How does these lines compare with species variation?
+
+--
+&lt;img src="images/spi_avg.png"&gt;
+
+???
+- Step back
+- Why is this imp
+- Anisotrophy
+- known
+- all regions of morphospace not occupied
+- pairs of legs always odd
+- dev bias
+- known
+- all regions of morphospace not occupied
+
+---
+
+
+&lt;img src="images/spi_avg.png"&gt;
+
+---
+
+### Overlap in morphospace:
+- ICB28, ICB32 etc are significantly more similar to *D.suzukii* etc.
+- Some lines vary more, some less.
+- Some lines deviate more from Gaussian distribution
+- Phenotype is stable after 6 years
+
+Unique opportunity to compare genotype to pixel-by-pixel level resolution.
+
+System in which we can compare between species and population
+
+
+---
+
+### : *D. suzukii* or *D. biarmipes*?
+
+--
+.pull-left[
+&lt;img src="images/suz.png" width =400&gt;
+]
+
+
+.pull-right[
+&lt;img src="images/icb.png" width =400&gt;
+]
+
+---
+
+--
+&lt;img src="images/spi_avg.png"&gt;
+
+---
+
+### Pigmentation intensity:
+- Can separate features and look at them individually
+- Compare within and between lines
+
+--
+
+&lt;img src="images/spot_int.png"&gt;
+
+
+---
+### Acknowledgements!
+.pull-left[
+#### Supervisor: Prof. Nicolas Gompel, LMU, Munich
+#### Prof. Benjamin Prud'homme, IBDM, Marseille
+#### Prof. Krishnamegh Kunte, NCBS, Bangalore
+
+#### Dr. Yann Le Poul
+#### Lab members: Rita, Dr. Natascha, Sakshi, Roshni, Russell , Bettina, Elena. 
+]
+
+.pull-right[
+#### Prof. Upendra Nongthomba, IISc, Bangalore
+#### Prof. Shyamala BV, University of Mysore
+ 
+### &lt;img src="images/DAAD.png" width =150&gt; for funding my scholarship 
+ 
+### &lt;img src="images/lsm.png" width =300&gt; for their support and for workshops
+ ]
+ 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"slideNumberFormat": "%current%",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"self_contained": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = Deepak D
+	email = 92441094+nativeFruitfly@users.noreply.github.com
+[remote "origin"]
+	url = git@github.com:nativeFruitfly/lsm.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
