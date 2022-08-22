@@ -210,6 +210,29 @@ Average Phenotypes:
 
 ---
 
+### Pigmentation intensity:
+- Can separate features and look at them individually
+- Compare within and between lines
+
+--
+
+<img src="./images/spot_int.png">
+
+
+---
+
+
+### Pigmentation intensity:
+- Can separate features and look at them individually
+- Compare within and between lines
+
+--
+
+<img src="./images/spot_int.png">
+
+---
+
+
 ### Capturing the *quantitative* variation:
 
 Principal Component Analysis (PCA)
@@ -381,18 +404,11 @@ System in which we can compare between species and population
 
 ---
 
---
-<img src="./images/spi_avg.png">
+class: middle center
 
----
+## ...No single type specimen is representation of a species. 
 
-### Pigmentation intensity:
-- Can separate features and look at them individually
-- Compare within and between lines
-
---
-
-<img src="./images/spot_int.png">
+Dobzhansky, The causes of evolution 1972. 
 
 
 ---
