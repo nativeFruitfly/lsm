@@ -9,6 +9,7 @@ author:
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    chakra: libs/remark-latest.min.js
     css: xaringan-themer.css
     nature:
       titleSlideClass: [top, center]
@@ -105,7 +106,15 @@ However, similarity or dissimilarity was <sup>*kind of **</sup> measurable.
 
 ---
 
+class: center middle
+
+# However!
+
 ### Morphology varies in a continuous way:
+
+---
+
+### Most phenotypes are complex:
 
 <img src="./images/grid.png" >
 ???
@@ -137,6 +146,7 @@ However, similarity or dissimilarity was <sup>*kind of **</sup> measurable.
 - How do we get a random sample of the population? 
 - One strategy is to collect inseminated females from the wild and to establish a population. Most laboratory strains were established in this way. canton s, oregon k oregon r. 
 - However, for complex phenotypes that vary in multi-dimension, precise quantification of the phenotype can be difficult.
+
 ---
 
 ### How do we compare these phenotypes in a _'quantitative'_ way?
@@ -148,7 +158,7 @@ However, similarity or dissimilarity was <sup>*kind of **</sup> measurable.
 --
 
 .pull-right[
-<img src="./images/reggif.gif" width="400" height="300">
+<img src="./images/reggif.gif" width="400" height="400">
 ]
 
 
@@ -205,7 +215,7 @@ Average Phenotypes:
 Principal Component Analysis (PCA)
 
 --
-<img src="images/pca_exampl.jpg" height = 450>
+<img src="./images/pca_exampl.jpg" height = 450>
 
 <div class="right">
 www.pexels.com @Matheus Bertelli
@@ -213,12 +223,13 @@ www.pexels.com @Matheus Bertelli
 ---
 
 class: center middle
-<img src="images/pca_pov_1.png" height = 600>
+
+<img src="./images/pca_pov_1.png" height = 600>
 
 ---
 
 class: center middle
-<img src="images/pca_pov_2.png" height = 600>
+<img src="./images/pca_pov_2.png" height = 600>
 
 ---
 
@@ -226,7 +237,7 @@ class: center middle
 
 --
 
-<img src="images/pca_2014.png" height=500>
+<img src="./images/pca_2014.png" height=500>
 
 ???
 - continuious variation
@@ -236,7 +247,7 @@ class: center middle
 
 ### PCA: Morphospace
 
-<img src="images/morphopc.png" height=500>
+<img src="./images/morphopc.png" height=500>
 
 ---
 
@@ -278,14 +289,14 @@ class: center middle
 --
 .right-column[
 
-<img src="/images/classif.png" width=600/>
+<img src="./images/classif.png" width=600/>
 
 ]
 
 ---
 ### Morphologically distinct lines:
 
-<img src="/images/uniq.png" width=950/>
+<img src="./images/uniq.png" width=950/>
 
 ???
 - pause
@@ -305,7 +316,7 @@ class: center middle
 
 ---
 ### Variation within each individual
-<img src="/images/ind.png" width=600/>
+<img src="./images/ind.png" width=600/>
 
 
 
@@ -314,14 +325,14 @@ class: center middle
 ### How does these lines compare with species variation?
 
 --
-<img src="images/spi.svg">
+<img src="./images/spi.svg">
 
 ---
 
 #### How does these lines compare with species variation?
 
 --
-<img src="images/spi_avg.png">
+<img src="./images/spi_avg.png">
 
 ???
 - Step back
@@ -337,7 +348,7 @@ class: center middle
 ---
 
 
-<img src="images/spi_avg.png">
+<img src="./images/spi_avg.png">
 
 ---
 
@@ -358,18 +369,18 @@ System in which we can compare between species and population
 
 --
 .pull-left[
-<img src="images/suz.png" width =400>
+<img src="./images/suz.png" width =400>
 ]
 
 
 .pull-right[
-<img src="images/icb.png" width =400>
+<img src="./images/icb.png" width =400>
 ]
 
 ---
 
 --
-<img src="images/spi_avg.png">
+<img src="./images/spi_avg.png">
 
 ---
 
@@ -379,7 +390,7 @@ System in which we can compare between species and population
 
 --
 
-<img src="images/spot_int.png">
+<img src="./images/spot_int.png">
 
 
 ---
